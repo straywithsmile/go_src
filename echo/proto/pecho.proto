@@ -1,0 +1,9 @@
+package pecho;
+
+message pEchoRequest {
+	required string message = 1;
+}
+
+message pEchoResponse {
+	required string message = 1;
+}
